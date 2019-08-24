@@ -7,17 +7,17 @@
         grow
         color="primary"
     >
-      <v-btn x-large :to="{ name: 'Control'}">
+      <v-btn :to="{ name: 'Control'}" height="56">
         <span>Car control</span>
         <v-icon>directions_car</v-icon>
       </v-btn>
 
-      <v-btn x-large :to="{ name: 'Bluetooth'}">
-        <span>Bluetooth</span>
+      <v-btn :to="{ name: 'Bluetooth'}" height="56">
+        <span>Devices</span>
         <v-icon>bluetooth</v-icon>
       </v-btn>
 
-      <v-btn x-large :to="{ name: 'Settings'}">
+      <v-btn :to="{ name: 'Settings'}" height="56">
         <span>Settings</span>
         <v-icon>settings</v-icon>
       </v-btn>

@@ -3,6 +3,9 @@
 ## Project setup
 ```
 yarn install
+yarn run cordova-prepare
+yarn run cordova-serve-android
+cordova run android
 ```
 
 ### Compiles and hot-reloads for development
